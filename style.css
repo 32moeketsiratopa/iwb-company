@@ -72,14 +72,16 @@ body {
     border-radius: 8px;
   }
 
-  .container {
+  #grid-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;  
   }
 
   .item img {
-    height: 140px;
-    width: 280px;
+    height: 300px;
+    width: 100%;
     border-radius: 60%;
   }
 
@@ -121,4 +123,5 @@ body {
     .hamburger {
       display: block;
     }
+
   }
