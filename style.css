@@ -108,7 +108,10 @@ body {
     background: #222;
     color: #fff;
   }
-  
+
+ button:hover {
+    backround-color:#796699;
+ }  
   
   @media (max-width: 768px) {
     .nav-links {
@@ -130,5 +133,6 @@ body {
     }
 
   }
+
 
 
